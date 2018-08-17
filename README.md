@@ -3,7 +3,7 @@
 Features:
 
 * High throughput
-* High concurrency
+* Timeout on user idleness
 * Server notifies all chat members when some user comes online or goes offline
 * Each message is broadcasted to all chat members
 
