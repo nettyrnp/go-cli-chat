@@ -252,6 +252,7 @@ func main() {
 			time.Sleep(delay)
 			continue
 		}
+		conn.SetDeadline(time.Now().Add(time.Hour*24))
 		server.entrance <- conn
 	}
 }
